@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;         
+    background-color: white;
+    width: 200px;
+    border-radius: 15px;
+    padding: 1%;
+    height: 325px;
+}
+.attribution p:nth-child(1) { 
+    font-family: 'outfit';
+    font-weight: 700;
+    font-size: 1rem;
+}
+.attribution p:nth-child(2) { 
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: hsl(220, 15%, 55%);
+}
+.qr {
+    border-radius: 10px;
+    height: 200px;
+}
+.description {
+    padding: 0 1.4%;
+}
